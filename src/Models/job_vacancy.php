@@ -32,7 +32,7 @@ class job_vacancy extends Model
     protected function casts(): array
     {
         return [
-
+            'salary' => 'integer',
             'deleted_at' => 'datetime'
         ];
     }
